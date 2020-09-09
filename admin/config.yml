@@ -2,7 +2,7 @@ backend:
   name: github
   repo: intiworks.github.io/jekyll-template/
   branch: master
-  site_domain: infallible-lewin-093a5e
+  site_domain: infallible-lewin-093a5e.netlify.com
 
 media_folder: "images/uploads"
 
