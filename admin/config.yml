@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: intiworks/jekyll-template.github.io
+  repo: intiworks/jekyll-template
   branch: master
   site_domain: infallible-lewin-093a5e.netlify.com
 
