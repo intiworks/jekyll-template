@@ -1,12 +1,12 @@
-<h1>Sections</h1>
+<h1>Latest Sections</h1>
 
 <ul>
-  {% for section in site.sections %}
+  {% for post in site.posts %}
   <li>
     <h2>
-      <a href="{{ section.url }}">{{ section.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </h2>
-    <p>{{ section.excerpt }}</p>
+    <p>{{ post.excerpt }}</p>
   </li>
   {% endfor %}
 </ul>
