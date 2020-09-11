@@ -4,7 +4,7 @@
   {% for section in site.sections %}
   <li>
     <h2>
-      {{ section.title }}
+      <a href="{{ section.url }}">{{ section.title }}</a>
     </h2>
     <p>{{ section.excerpt }}</p>
   </li>
