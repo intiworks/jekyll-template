@@ -11,19 +11,19 @@ HOW TO USE:
 
 -To add/remove post categories, add a new folder "categoryname" and inside of it a new one called "_posts" -> 
 
-   |
+     |
    
-   |--index.html
+     |--index.html
    
-   |--categoryfolder (example: "updates", "sections")
+     |--categoryfolder (example: "updates", "sections")
    
-      |
+        |
       
-      |--_posts
+        |--_posts
       
-         |
+          |
          
-         --.md files
+          --.md files
   Then edit admin/config.yml and add new entries taking "sections" as example.
   
   Then, add a file named "categoryname.html" inside "_layouts". Take "section.html" as an example of how to write it.
