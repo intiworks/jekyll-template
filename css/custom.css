@@ -36,6 +36,9 @@ section.resume-section {
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
+.w-100 {
+  width: 100% !important;
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
